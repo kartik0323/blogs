@@ -7,17 +7,16 @@
   <body>
     <%- include('./partials/nav') %>
 
-
     <div class="container mt-3">
       <form action="/blog" method="post" enctype="multipart/form-data">
         <div class="mb-3">
-          <label for="coverImageURL" class="form-label">Cover Image</label>
+          <label for="coverImage" class="form-label">Cover Image</label>
           <input
             type="file"
             class="form-control"
-            id="coverImageURL"
-            name="coverImageURL"
-            aria-describedby="coverImageURL"
+            id="coverImage"
+            name="coverImage"
+            aria-describedby="coverImage"
           />
         </div>
         <div class="mb-3">
